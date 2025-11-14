@@ -1,4 +1,5 @@
-from pyscript import document, display
+from js import document
+from pyscript import display 
 
 def general_weighted_average(e):
     first_name = document.getElementById("input1").value
